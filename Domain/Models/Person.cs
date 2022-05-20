@@ -16,7 +16,6 @@ namespace Domain.Models
         [Column("EmployeeID")]
         public int PersonID { set; get; }
         public string Name { get; set; }
-        [StringLength(20)]
         public string Telephone { set; get; }
         public string Document { set; get; }
         //
