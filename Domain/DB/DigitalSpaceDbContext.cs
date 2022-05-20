@@ -1,4 +1,5 @@
 ﻿using Domain.Models;
+using Domain.Seeders;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,11 @@ namespace Domain.DB
 
         }
 
-        public DbSet<Person> Alquiler { get; set; }
+        public DbSet<Person> Person { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Seed();
+        }
     }
 }

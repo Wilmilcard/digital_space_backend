@@ -20,5 +20,10 @@ namespace Domain.Models
         public string Telephone { set; get; }
         public string Document { set; get; }
         //
+        //Auditory
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        [StringLength(50)]
+        public string CreatedBy { get; set; }
     }
 }
