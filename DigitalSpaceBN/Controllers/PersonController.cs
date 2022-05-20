@@ -28,7 +28,7 @@ namespace DigitalSpaceBN.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet("[Action]")]
         public async Task<IActionResult> GetAll()
         {
             try
@@ -54,7 +54,7 @@ namespace DigitalSpaceBN.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("[Action]/{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             try
@@ -83,7 +83,7 @@ namespace DigitalSpaceBN.Controllers
             }
         }
 
-        [HttpPost()]
+        [HttpPost("[Action]")]
         public async Task<IActionResult> Create([FromBody] PersonCreateUpdate request)
         {
             try
@@ -127,7 +127,7 @@ namespace DigitalSpaceBN.Controllers
             }
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("[Action]/{id}")]
         public async Task<IActionResult> Update([FromRoute] int id, [FromBody] PersonCreateUpdate request)
         {
             try
