@@ -13,7 +13,7 @@ namespace Domain.Models
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
-        [Column("EmployeeID")]
+        [Column("PersonID")]
         public int PersonID { set; get; }
         public string Name { get; set; }
         public string Telephone { set; get; }

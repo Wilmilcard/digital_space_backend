@@ -30,6 +30,7 @@ namespace DigitalSpaceBN
             //Dependencias de Domain
             services.AddCustomizedDataStore(Configuration);
             services.AddCustomizedRepository();
+            services.AddCustomizedServices();
 
 
             services.AddControllers();
