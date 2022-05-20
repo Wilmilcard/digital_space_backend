@@ -59,7 +59,7 @@ namespace DigitalSpaceBN.Controllers
         {
             try
             {
-                var query = _context.Person.Where(x => x.PersonID == id).FirstOrDefault();
+                var query = _context.Person.Include(x => x.Rol).Where(x => x.PersonID == id).FirstOrDefault();
 
                 if (query == null)
                     return BadRequest(new { success = false, error = 400, content = "No existe esa persona" });
