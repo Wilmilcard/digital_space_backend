@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "OnF20L9zqTGtF8Lp3ezJ5x6smM6qBKJm9itBpfuoUH3JalukwpAGLcftGTHOP0EZ5hxg0zOdmWrA8cUO0idTYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wilmilcard\\source\\repos\\digital_space_backend\\DigitalSpaceBN\\DigitalSpaceBN.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wilmilcard\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\wilmilcard\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\wilmilcard\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\wilmilcard\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\wilmilcard\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\wilmilcard\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
