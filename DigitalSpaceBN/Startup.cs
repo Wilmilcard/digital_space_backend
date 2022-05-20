@@ -31,6 +31,7 @@ namespace DigitalSpaceBN
             services.AddCustomizedDataStore(Configuration);
             services.AddCustomizedRepository();
 
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

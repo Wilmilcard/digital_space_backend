@@ -16,6 +16,7 @@ namespace Domain.DB
 
         }
 
+        public DbSet<Rol> Rol { get; set; }
         public DbSet<Person> Person { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
